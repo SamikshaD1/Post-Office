@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Tight", sans-serif;
+}
+body {
+  width: 100%;
+}
+.before-clicking {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 800px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  background-color:#000;
+  width: 50%;
+
+}
+.left h1 {
+  color: #575a85;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  left: 0;
+}
+.left p {
+  color: #b8bccc;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.left img {
+  max-width: 400px;
+  background: #000;
+}
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4vw;
+  background: #575a85;
+  width: 50%;
+}
+#btn{
+  max-width: 200px;
+  max-height: 80px;
+  border-radius: 10px;
+  background: #575a85;
+  border: 2px solid #b8bccc;
+  color: #b8bccc;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 1vw;
+  cursor: pointer;
+}
